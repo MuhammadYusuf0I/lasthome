@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    background: #FAFAFA;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+.client-item {
+    width: 390px;
+    border-radius: 24px;
+    border: 1px solid #EDEDED;
+    background: #FFF;
+    box-shadow: 0px 2px 12px 0px rgba(16, 16, 16, 0.08);
+    margin-bottom: 28px;
+    padding: 42px 33px;
+}
+
+.client__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.user-img .img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.user-info h3 {
+    color: #121212;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.998px;
+    margin-bottom: 6px;
+}
+
+.user-info h4 {
+    color: #FF5634;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.client-item p {
+    color: #656565;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+}
+
+.customers-block {
+    display: flex;
+    height: 129px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 253px;
+    padding: 0px 109px;
+}
+
+.customers h2 {
+    color: #121212;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53.988px;
+    margin-bottom: 22px;
+}
+
+.customers p {
+    color: #656565;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    width: 465px;
+}
+
+.register {
+    display: flex;
+    width: 479px;
+    height: 73px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 27px;
+    background-color: aquamarine;
+}
+
+.register-li {
+    width: 247px;
+    height: 73px;
+    border-radius: 16px;
+    border: 1px solid #FF5634;
+    background: #FF5634;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.register a {
+    width: 169px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.998px;
+    margin: 26px 39px 27px 39px;
+    margin-top: 26px;
+}
